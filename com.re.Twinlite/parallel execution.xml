@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="classes">
   <test thread-count="5" name="Test">
   <classes>
-  <class name="com.re.twinliteTest.LU_STC_02"/>
+  <class name="com.re.twinliteTest.LU_STC_02Test"/>
   <class name="com.re.twinliteTest.VerifyThatAdminCanFileAComplaintForTheRegisteredPropertyTest"/>
   <class name="com.re.twinliteTest.VerifyThatAdminEditTheDetailsOfTheRegisteredPropertyTest"/>
   <class name="com.re.twinliteTest.VerifyThatUserCanEditTheRegisteredPropertyTest"/>
