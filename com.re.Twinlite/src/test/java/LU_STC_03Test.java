@@ -19,7 +19,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class LU_STC_03Test extends BaseClass {
 	@Test
 	public void LU_STC_03Test() throws Throwable {
-		//branch test work in progress
+		//lalalalalalalla
 		
 		FileInputStream fis = new FileInputStream("./src/test/resources/Properties.Properties");
 		Properties pobj=new Properties();
