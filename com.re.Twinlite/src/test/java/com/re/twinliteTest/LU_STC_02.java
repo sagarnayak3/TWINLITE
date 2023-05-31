@@ -29,12 +29,12 @@ import com.re.TwinliteGenericUtilities.WebDriverUtility;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LU_STC_02 extends BaseClass {
+public class LU_STC_02Test extends BaseClass {
 	
 	//utilities done pom done baseclass done
 	
 	@Test(priority=0,groups="SmokeTest")
-	public void LU_STC_02()throws Throwable{
+	public void LU_STC_02Test()throws Throwable{
 		
 		//reading from excel file
 		
