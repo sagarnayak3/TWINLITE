@@ -7,17 +7,23 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.re.TwinliteGenericUtilities.JavaScriptUtility;
+
 public class IccTest {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
+		JavaScriptUtility jsu=new JavaScriptUtility();
 		driver.get("https://www.icc-cricket.com/rankings/mens/team-rankings/t20i");
-		List<WebElement>countries=driver.findElements(By.xpath("//tbody/tr/td[1][text()<6]/../td[2]/span[2]"));
-		for(WebElement L:countries)
-		{
-			String i=L.getText();
-			System.out.println(i);
-		}
+		driver.manage().window().maximize();
+		Thread.sleep(3000);
+		
+		
+		Thread.sleep(3000);
+		jsu.scrollDown();
+		jsu.scrollUp();
+		
+	
 		
 	}
 
