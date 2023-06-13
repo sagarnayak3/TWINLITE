@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.re.twinliteTest.VerifyThatAdminEditTheDetailsOfTheRegisteredPropertyTest">
+      <class name="com.re.twinliteTest.LU_STC_02Test">
         <methods>
           <include name="config_AM"/>
           <include name="config_BS"/>
           <include name="config_BC"/>
           <include name="config_AS"/>
           <include name="config_AC"/>
-          <include name="VerifyThatAdminEditTheDetailsOfTheRegisteredPropertyTest"/>
+          <include name="LU_STC_02Test"/>
           <include name="config_BM"/>
         </methods>
-      </class> <!-- com.re.twinliteTest.VerifyThatAdminEditTheDetailsOfTheRegisteredPropertyTest -->
+      </class> <!-- com.re.twinliteTest.LU_STC_02Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
