@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="methods">
+  <test name="Test1">
+	  <parameter name="DeviceName" value="Google Pixel 5"/>
+    <classes>
+      <class name="practice.MobileBrowser_BrowserStack"/>
+    </classes>
+     </test>
+<test name="Test2">
+	  <parameter name="DeviceName" value="Moto G9 Play"/>
+    <classes>
+      <class name="practice.MobileBrowser_BrowserStack"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
