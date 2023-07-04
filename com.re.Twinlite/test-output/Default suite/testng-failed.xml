@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.MobileAppTest">
+      <class name="practice.iphoneFetch">
         <methods>
-          <include name="mobileAppTest"/>
+          <include name="iphoneFetch"/>
         </methods>
-      </class> <!-- practice.MobileAppTest -->
+      </class> <!-- practice.iphoneFetch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
